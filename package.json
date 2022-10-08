@@ -1,6 +1,6 @@
 {
   "name": "kushtay",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "link shortener api",
   "main": "app.js",
   "scripts": {
