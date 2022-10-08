@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+./node_modules/.bin/lint-staged && npm run format:write && npm run lint:check && npm run test:unit
